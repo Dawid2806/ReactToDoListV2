@@ -1,10 +1,10 @@
 import { useFormik } from "formik";
 import { validate } from "./LoginValidation";
+import { useAuth } from "../../../hooks/useAuth";
 import classes from "./LoginForm.module.css";
 //Import FireBase
-import { useLogin } from "../../../hooks/useLogin";
 const LoginForm = () => {
-  const { login } = useLogin();
+  const { login } = useAuth();
 
   const formik = useFormik({
     initialValues: {

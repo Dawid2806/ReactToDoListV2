@@ -10,21 +10,26 @@
 }
 .tasks {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 2fr);
   grid-template-rows: 1fr;
   margin: 3rem auto;
   width: 60vw;
 }
-.tasks__completed,
-.tasks__NotCompleted {
+.tasksCompleted,
+.tasksNotCompleted {
   border: 1px solid blue;
   height: 80vh;
   overflow: scroll;
 }
-.tasks__title {
+.tasksTitle {
   margin: 2rem 0;
   font-size: 30px;
   text-align: center;
   color: #61256e;
   font-weight: 300;
+}
+@media (min-width: 765px) {
+  .tasks {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

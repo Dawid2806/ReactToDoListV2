@@ -28,10 +28,7 @@ const NewTaskForm = () => {
     validate,
     onSubmit: (values) => {
       addNewTaskToFirebase();
-      formik.values.title = "";
-      formik.values.description = "";
-
-      formik.values.date = "";
+      formik.handleReset();
     },
   });
 

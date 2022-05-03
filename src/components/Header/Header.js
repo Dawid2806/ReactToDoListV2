@@ -9,7 +9,7 @@ const Header = () => {
     <>
       <header className={classes.header}>
         <h1 className={classes.title}>Lista zadań </h1>
-        {user && <p className={classes.name}> {user.email} </p>}
+        {user && <span className={classes.name}> {user.email} </span>}
         <Nav />
       </header>
     </>

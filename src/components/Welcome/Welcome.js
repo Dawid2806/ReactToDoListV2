@@ -7,12 +7,12 @@ const Welcome = () => {
     <>
       <div className={classes.container}>
         <h2 className={classes.title}>Witamy na pokładzie </h2>
-        <p className={classes.para}>
+        <span className={classes.para}>
           z naszą " Listą do zrobienia" nie zapomnisz niczego !{" "}
-        </p>
-        <p className={classes.para}>
+        </span>
+        <span className={classes.para}>
           Wystarczy założyć darmowe konto Aby cieszyć się Listą{" "}
-        </p>
+        </span>
         <button
           onClick={() => {
             goTo("/rejestracja");
@@ -21,9 +21,9 @@ const Welcome = () => {
         >
           zarejestruj sie{" "}
         </button>
-        <p className={classes.para}>
+        <span className={classes.para}>
           ale jeśli już masz Konto TO zaloguj się !
-        </p>
+        </span>
         <button
           onClick={() => {
             goTo("/login");

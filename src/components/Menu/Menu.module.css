@@ -1,4 +1,12 @@
 .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.a {
+  margin-top: 2rem;
+}
+/* .menu {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -6,7 +14,16 @@
   width: 10rem;
   height: 150vh;
   border: 1px solid black;
-}
-.a {
-  margin-top: 5rem;
+} */
+
+@media (min-width: 992px) {
+  .menu {
+    position: absolute;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 10rem;
+    height: 150vh;
+    border: 1px solid black;
+  }
 }

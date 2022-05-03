@@ -3,8 +3,8 @@ import ArchitCompleted from "./ArchitCompleted";
 const ArchivList = ({ completed }) => {
   return (
     <div className={classes.tasks}>
-      <div className={classes.tasks__completed}>
-        <h4 className={classes.tasks__title}>Zadania wykonane</h4>
+      <div className={classes.tasksCompleted}>
+        <h4 className={classes.tasksTitle}>Zadania wykonane</h4>
         {completed.map((el) => {
           return (
             <ArchitCompleted
@@ -17,8 +17,8 @@ const ArchivList = ({ completed }) => {
           );
         })}
       </div>
-      <div className={classes.tasks__NotCompleted}>
-        <h4 className={classes.tasks__title}>Zadania niewykonane </h4>
+      <div className={classes.tasksNotCompleted}>
+        <h4 className={classes.tasksTitle}>Zadania niewykonane </h4>
       </div>
     </div>
   );

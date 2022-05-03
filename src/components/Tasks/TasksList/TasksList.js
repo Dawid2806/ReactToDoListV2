@@ -6,7 +6,7 @@ import { db } from "../../../firebase/config";
 
 import { doc, deleteDoc } from "firebase/firestore";
 const TasksList = ({ tasks }) => {
-  const DaleteHandler = async (id) => {
+  const daleteHandler = async (id) => {
     const docRef = doc(db, "tasks", id);
     await deleteDoc(docRef);
   };
@@ -21,7 +21,7 @@ const TasksList = ({ tasks }) => {
             title={task.title}
             descr={task.description}
             date={task.date}
-            deleteHandler={DaleteHandler}
+            deleteHandler={daleteHandler}
           />
         );
       })}
