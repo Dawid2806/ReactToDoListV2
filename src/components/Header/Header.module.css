@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 5rem;
+  background-color: #61256e;
+}
+.title {
+  margin-left: 1rem;
+  font-size: 3rem;
+  color: #4ec5e6;
+}
+.name {
+  margin-left: 2rem;
+  font-size: 1.3rem;
+  color: #4ec5e6;
+}

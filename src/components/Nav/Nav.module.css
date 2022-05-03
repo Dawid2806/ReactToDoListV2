@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+}
+.links {
+  display: flex;
+  list-style: none;
+}
+a {
+  color: #4ec5e6;
+  padding: 1.5rem;
+  margin: 0.5rem;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 1s;
+}
+a:hover {
+  color: blueviolet;
+  background-color: #317d92;
+  border-radius: 20px;
+}
+.active {
+  color: #317d92;
+  background-color: blueviolet;
+  border-radius: 20px;
+}

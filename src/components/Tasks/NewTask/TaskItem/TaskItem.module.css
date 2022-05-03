@@ -1,0 +1,48 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin-left: 1rem;
+  background-image: url("../../../../assets/paper-5615994_640.png");
+  background-position: center;
+  background-size: cover;
+}
+.title {
+  position: absolute;
+  top: 28%;
+  left: 67px;
+}
+.description {
+  position: absolute;
+  top: 42%;
+  left: 13%;
+}
+.date {
+  position: absolute;
+  top: 68%;
+  left: 53%;
+}
+.title,
+.para,
+.date {
+  font-size: 24px;
+}
+
+.delete {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 25px;
+  padding: 1rem;
+  cursor: pointer;
+}
+.completed {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+  font-size: 25px;
+  cursor: pointer;
+}

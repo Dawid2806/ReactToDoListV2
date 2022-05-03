@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  padding: 3rem 0;
+  font-size: 3rem;
+  color: #61256e;
+}
+.para {
+  padding: 1rem;
+  margin: 1rem 0;
+  border: #61256e solid 2px;
+  border-radius: 20px;
+  color: #255e6e;
+  font-size: 1.8rem;
+}
+.button {
+  padding: 1rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #61256e;
+  font-size: 1.2rem;
+  color: #4ec5e6;
+  text-transform: uppercase;
+  transition: 1s;
+}
+.button:hover {
+  background-color: #4ec5e6;
+  color: #61256e;
+}

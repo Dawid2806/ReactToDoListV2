@@ -1,0 +1,12 @@
+.menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10rem;
+  height: 150vh;
+  border: 1px solid black;
+}
+.a {
+  margin-top: 5rem;
+}
