@@ -13,9 +13,7 @@
    <li> Javascript </li>
     <li> Czysty CSS  </li></ul>
   
-  <h2> Live </h2>
- 
- <span> podgląd live <a href="http://dkproject.com.pl/"> Kliknij tutaj</a> </span>
+
  
   <h2>instalacja </h2>
   <span> jeśli chcesz zainstalować aplikacje u siebie lokalnie to wykonaj te proste kroki </span>
@@ -45,8 +43,7 @@
     <li>React</li>
     <li>Javascript</li>
     <li>Pure CSS</li> </ul>
-  <h1>Live</h1>
-  <spna>live preview <a href="http://dkproject.com.pl/"> click here</a><span>
+
 
 <h2>installation<h2>
   <span>if you want to install the application locally, follow these simple steps</span>
